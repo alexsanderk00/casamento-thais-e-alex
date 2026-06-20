@@ -1,11 +1,11 @@
 :root {
-  --gold: #B8A88A;
-  --gold-dark: #9C8E72;
-  --cream: #F0EBE3;
-  --cream-light: #FAF7F2;
+  --gold: #7BA7CC;
+  --gold-dark: #5B8FB9;
+  --cream: #E3EEF7;
+  --cream-light: #F0F6FB;
   --white: #FFFFFF;
-  --dark: #3D3D3D;
-  --dark-light: #5A5A5A;
+  --dark: #2C3E50;
+  --dark-light: #4A6B8A;
   --font-script: 'Great Vibes', cursive;
   --font-serif: 'Cormorant Garamond', serif;
   --font-sans: 'Montserrat', sans-serif;
@@ -885,7 +885,7 @@ body {
 }
 
 .btn-copy-payload:hover {
-  background-color: #897b63;
+  background-color: #4A7FA8;
 }
 
 .modal-pix-name {

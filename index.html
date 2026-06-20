@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thais & Alex - 10/10/2026</title>
+  <meta name="description" content="Site do casamento de Thais e Alex - 10 de outubro de 2026 - Santa Rosa, RS">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">T + A</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#cerimonia">Cerimônia</a></li>
+        <li><a href="#padrinhos">Padrinhos</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#presentes">Presentes</a></li>
+        <li><a href="#rsvp" class="nav-rsvp-btn">Confirmar Presença</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-slideshow">
+      <div class="hero-slide active" style="background-image: url('fotos/foto--1.jpeg')"></div>
+      <div class="hero-slide" style="background-image: url('fotos/foto--2.jpeg')"></div>
+      <div class="hero-slide" style="background-image: url('fotos/foto--3.jpeg')"></div>
+      <div class="hero-slide" style="background-image: url('fotos/foto--4.jpeg')"></div>
+      <div class="hero-slide" style="background-image: url('fotos/foto--5.jpeg')"></div>
+      <div class="hero-slide" style="background-image: url('fotos/foto--6.jpeg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-name">Thais</h1>
+      <div class="hero-and">
+        <span class="line"></span>
+        <span class="and-text">AND</span>
+        <span class="line"></span>
+      </div>
+      <h1 class="hero-name">Alex</h1>
+      <p class="hero-date">10 / 10 / 2026</p>
+    </div>
+  </section>
+
+  <!-- BEM-VINDOS -->
+  <section class="bemvindos-section">
+    <h2 class="bemvindos-title">SEJAM BEM-VINDOS AO NOSSO SITE!</h2>
+    <p class="bemvindos-subtitle">A MELHOR FORMA DE COMPARTILHAR ESSE MOMENTO COM VOCÊS É VIVENDO JUNTOS ESSE SONHO!</p>
+    <p class="bemvindos-text">Aqui vamos contar à vocês, queridos amigos e familiares, os momentos mais marcantes da nossa história de amor. A contagem regressiva começa, o frio na barriga e toda a ansiedade do dia mais esperado de nossas vidas nos enche de alegria em tê-los ao nosso lado. Vamos juntos nesse grande sonho, o dia em que uniremos nossas almas e corpos para sempre, o dia do nosso casamento.</p>
+  </section>
+
+  <!-- COUNTDOWN -->
+  <section class="countdown-section" id="countdown">
+    <h2 class="section-subtitle">Contagem regressiva para o grande dia</h2>
+    <div class="countdown-container">
+      <div class="countdown-box">
+        <span class="countdown-number" id="days">000</span>
+        <span class="countdown-label">Dias</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="hours">00</span>
+        <span class="countdown-label">Horas</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="minutes">00</span>
+        <span class="countdown-label">Minutos</span>
+      </div>
+      <div class="countdown-box">
+        <span class="countdown-number" id="seconds">00</span>
+        <span class="countdown-label">Segundos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSSA HISTÓRIA -->
+  <section class="historia-section" id="historia">
+    <div class="historia-header">
+      <h2 class="section-title-script">Nossa história</h2>
+      <p class="section-subtitle">CONHEÇA OS DETALHES DA NOSSA CAMINHADA ATÉ ESSE GRANDE SONHO</p>
+    </div>
+    <div class="historia-content">
+      <div class="historia-text">
+        <p>Nossa história começa de um jeito simples, como as melhores histórias de amor. Entre olhares, conversas e momentos que foram se tornando cada vez mais especiais, fomos nos descobrindo um no outro.</p>
+        <p>O que começou como amizade foi crescendo, se transformando em algo maior. Aprendemos juntos, rimos juntos e, acima de tudo, escolhemos ficar juntos — todos os dias.</p>
+        <p>Agora, estamos prontos para dar o próximo passo e celebrar esse amor com as pessoas mais importantes das nossas vidas. Vocês!</p>
+      </div>
+      <div class="historia-image">
+        <img src="fotos/foto--1.jpeg" alt="Thais e Alex" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- CERIMÔNIA -->
+  <section class="cerimonia-section" id="cerimonia">
+    <h2 class="section-title-script">Cerimônia</h2>
+    <div class="cerimonia-content">
+      <div class="cerimonia-info">
+        <div class="cerimonia-item">
+          <svg class="cerimonia-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            <circle cx="12" cy="9" r="2.5"/>
+          </svg>
+          <h3>Paróquia Sagrado Coração de Jesus</h3>
+          <p>R. Dr. João Dahne, 250 - Centro<br>Santa Rosa - RS, 98780-078</p>
+        </div>
+        <div class="cerimonia-item">
+          <svg class="cerimonia-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          <h3>10 de Outubro de 2026</h3>
+          <p>às 16h00</p>
+        </div>
+      </div>
+      <a href="https://www.google.com/maps/search/?api=1&query=R.+Dr.+Jo%C3%A3o+Dahne,+250+-+Centro,+Santa+Rosa+-+RS,+98780-078" target="_blank" rel="noopener" class="btn-gold">Como chegar</a>
+    </div>
+  </section>
+
+  <!-- PADRINHOS & MADRINHAS -->
+  <section class="padrinhos-section" id="padrinhos">
+    <h2 class="section-title-script">Padrinhos & Madrinhas</h2>
+    <p class="section-subtitle">AS PESSOAS QUE ESTARÃO AO NOSSO LADO NESSE DIA ESPECIAL</p>
+    <div class="padrinhos-grid">
+      <div class="padrinho-card fade-in">
+        <div class="padrinho-avatar"><span>P1</span></div>
+        <p class="padrinho-names">Padrinho & Madrinha 1</p>
+      </div>
+      <div class="padrinho-card fade-in">
+        <div class="padrinho-avatar"><span>P2</span></div>
+        <p class="padrinho-names">Padrinho & Madrinha 2</p>
+      </div>
+      <div class="padrinho-card fade-in">
+        <div class="padrinho-avatar"><span>P3</span></div>
+        <p class="padrinho-names">Padrinho & Madrinha 3</p>
+      </div>
+      <div class="padrinho-card fade-in">
+        <div class="padrinho-avatar"><span>P4</span></div>
+        <p class="padrinho-names">Padrinho & Madrinha 4</p>
+      </div>
+      <div class="padrinho-card fade-in">
+        <div class="padrinho-avatar"><span>P5</span></div>
+        <p class="padrinho-names">Padrinho & Madrinha 5</p>
+      </div>
+      <div class="padrinho-card fade-in">
+        <div class="padrinho-avatar"><span>P6</span></div>
+        <p class="padrinho-names">Padrinho & Madrinha 6</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="galeria-section" id="galeria">
+    <h2 class="section-title-script">Galeria</h2>
+    <p class="section-subtitle">NOSSOS MELHORES MOMENTOS</p>
+    <div class="galeria-grid">
+      <div class="galeria-item" data-index="0"><img src="fotos/foto-4.jpeg" alt="Foto 1" loading="lazy"></div>
+      <div class="galeria-item" data-index="1"><img src="fotos/foto-7.jpeg" alt="Foto 2" loading="lazy"></div>
+      <div class="galeria-item" data-index="2"><img src="fotos/foto-8.jpeg" alt="Foto 3" loading="lazy"></div>
+      <div class="galeria-item" data-index="3"><img src="fotos/foto-9.jpeg" alt="Foto 4" loading="lazy"></div>
+      <div class="galeria-item" data-index="4"><img src="fotos/foto-10.jpeg" alt="Foto 5" loading="lazy"></div>
+      <div class="galeria-item" data-index="5"><img src="fotos/foto-11.jpeg" alt="Foto 6" loading="lazy"></div>
+      <div class="galeria-item" data-index="6"><img src="fotos/foto-12.jpeg" alt="Foto 7" loading="lazy"></div>
+      <div class="galeria-item" data-index="7"><img src="fotos/foto-14.jpeg" alt="Foto 8" loading="lazy"></div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Fechar">&times;</button>
+    <button class="lightbox-prev" aria-label="Anterior">&#10094;</button>
+    <button class="lightbox-next" aria-label="Próximo">&#10095;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="Foto">
+  </div>
+
+  <!-- PRESENTES -->
+  <section class="presentes-section" id="presentes">
+    <h2 class="section-title-script">Presentes</h2>
+    <p class="section-subtitle">SUA PRESENÇA É O NOSSO MAIOR PRESENTE</p>
+    <p class="presentes-intro">O maior presente é sua presença. Caso queira nos presentear, criamos uma forma de contribuir com nossos planos para a nova fase.</p>
+
+    <div class="presentes-filters">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="essenciais">Essenciais</button>
+      <button class="filter-btn" data-filter="eletro">Eletrodomésticos</button>
+      <button class="filter-btn" data-filter="especiais">Especiais</button>
+      <button class="filter-btn" data-filter="luademel">Lua de Mel</button>
+    </div>
+
+    <div class="presentes-grid" id="presentesGrid"></div>
+  </section>
+
+  <!-- MODAL PIX -->
+  <div class="modal-overlay" id="pixModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div class="modal-heart" aria-hidden="true">💛</div>
+      <h3 class="modal-title">Que presente incrível!</h3>
+      <p class="modal-gift-name" id="modalGiftName"></p>
+      <p class="modal-amount" id="modalAmount"></p>
+      <div class="modal-qr" id="modalQr"></div>
+      <div class="modal-pix-key">
+        <p>Chave PIX (CPF)</p>
+        <div class="pix-copy-area">
+          <span id="pixKey">05191996933</span>
+        </div>
+        <button class="btn-copy-full" id="btnCopy">Copiar Chave PIX</button>
+        <button class="btn-copy-full btn-copy-payload" id="btnCopyPayload">Copiar PIX Copia e Cola</button>
+        <p class="modal-pix-name">Thais ou Alex</p>
+      </div>
+      <p class="modal-thanks">Muito obrigado pelo carinho! 💛</p>
+    </div>
+  </div>
+
+  <!-- RSVP -->
+  <section class="rsvp-section" id="rsvp">
+    <h2 class="section-title-script">Confirmar Presença</h2>
+    <p class="section-subtitle">CONFIRME SUA PRESENÇA ATÉ 20 DE SETEMBRO DE 2026</p>
+
+    <div class="rsvp-wrapper">
+      <div class="rsvp-deadline">
+        <span class="rsvp-deadline-icon">📅</span>
+        <p>Pedimos gentilmente que confirme sua presença até <strong>20 de Setembro de 2026</strong>.</p>
+      </div>
+
+      <form class="rsvp-form" id="rsvpForm" novalidate>
+        <div class="rsvp-row">
+          <div class="form-group">
+            <label for="rsvpName">Seu nome completo <span class="required">*</span></label>
+            <input type="text" id="rsvpName" name="name" required placeholder="Ex: João da Silva" autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="rsvpPhone">WhatsApp <span class="required">*</span></label>
+            <input type="tel" id="rsvpPhone" name="phone" required placeholder="(55) 99999-9999" autocomplete="tel">
+          </div>
+        </div>
+
+        <div class="rsvp-row">
+          <div class="form-group">
+            <label for="rsvpGuests">Número de pessoas (incluindo você) <span class="required">*</span></label>
+            <select id="rsvpGuests" name="guests" required>
+              <option value="" disabled selected>Selecione</option>
+              <option value="1">1 pessoa</option>
+              <option value="2">2 pessoas</option>
+              <option value="3">3 pessoas</option>
+              <option value="4">4 pessoas</option>
+              <option value="5+">5 ou mais</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="rsvpAttending">Você vai comparecer? <span class="required">*</span></label>
+            <select id="rsvpAttending" name="attending" required>
+              <option value="" disabled selected>Selecione</option>
+              <option value="sim">Sim, estarei lá! 🎉</option>
+              <option value="nao">Infelizmente não poderei ir</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group form-group--full">
+          <label for="rsvpMessage">Mensagem para os noivos (opcional)</label>
+          <textarea id="rsvpMessage" name="message" rows="3" placeholder="Deixe uma mensagem carinhosa para Thais e Alex..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-gold btn-rsvp">Confirmar Presença</button>
+      </form>
+
+      <div class="rsvp-success" id="rsvpSuccess" hidden>
+        <div class="rsvp-success-icon">💛</div>
+        <h3>Confirmação enviada!</h3>
+        <p id="rsvpSuccessMsg">Obrigado por confirmar! Não vemos a hora de celebrar com você.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <a href="#hero" class="footer-top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+        <polyline points="18 15 12 9 6 15"/>
+      </svg>
+      <span>VOLTAR AO TOPO</span>
+    </a>
+    <div class="footer-content">
+      <p class="footer-initials">T + A</p>
+      <p class="footer-text">10 de outubro de 2026</p>
+      <p class="footer-love">Feito com amor</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
